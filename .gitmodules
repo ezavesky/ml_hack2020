@@ -1,0 +1,6 @@
+[submodule "packages/turk"]
+	path = packages/turk
+	url = ssh://git@CODE_SITE:7999/st_tavi/turk.git
+[submodule "packages/pylq"]
+	path = packages/pylq
+	url = ssh://git@CODE_SITE:7999/st_lq/pylq.git
