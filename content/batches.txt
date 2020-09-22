@@ -1,0 +1,7 @@
+# batchid of content processed through contentai
+#   contentai batch inspect XXX - inspect the components of the batch
+#   contentai batch data XXX - download the data from the batch
+
+1hiPieI6mb2Dyzzsg84TCI5cCmM - xmas
+1hhadDBuEtRUPd6v8vCr5H3346r - halloween
+1hl1l0V3BNumdsZc3DaAJd3JlB2 - gifts

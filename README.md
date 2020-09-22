@@ -14,6 +14,10 @@ Contains the numerical features for tags, audio, and video representations.
 
 Packages are included as sub-modules and may need the commands below to be properly sync'd after cloning.
 
+## scripts
+
+Helper scripts to finalize and prepare the repo/data
+
 ```
 git submodule init
 git submodule update
