@@ -4,7 +4,7 @@
 #  
 # find content for a directory, populate for full workshop processing
 #  -- see reference - https://www.contentai.io/docs/cli#batch-processing
-ROOT_DIR=$( cd "$( dirname $( dirname "${BASH_SOURCE[0]}" ))" && pwd )
+ROOT_DIR=$( cd $( dirname $( cd $( dirname "${BASH_SOURCE[0]}" ) && pwd ) ) && pwd )
 cd $ROOT_DIR
 
 cd $1  # change to content dir

@@ -9,7 +9,7 @@
 # To download cool insights for this patch afterwards:
 #   `contentai batch data <BATCHID>
 
-ROOT_DIR=$( cd "$( dirname $( dirname "${BASH_SOURCE[0]}" ))" && pwd )
+ROOT_DIR=$( cd $( dirname $( cd $( dirname "${BASH_SOURCE[0]}" ) && pwd ) ) && pwd )
 echo "Root dir: $ROOT_DIR"
 cd $ROOT_DIR
 
