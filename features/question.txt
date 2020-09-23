@@ -1,0 +1,9 @@
+<div >Please pick all of the labels that correspond to at least two seconds of video in this clip; matching audio or music alone is not sufficient.</div>
+<ul>
+<li><strong>holiday</strong> - holiday scenes or objects like decorated trees, presents, or character, holiday party</li>
+<li><strong>halloween</strong> - halloween scenes where one or more characters are in costume, ideally one or more characters are trick-or-treating</li>
+<li><strong>gift giving</strong> - scenes of gift giving, receiving, or opening/unwrapping</li>
+<li><strong>family moments</strong> - at least two people on screen, typically familes at parties, enjoying a meal, lounging at home</li>
+<li><strong>shopping scenes</strong> - one or more primary actors in a store-like environment; not necessary to see their face</li>
+<li><strong>none of the above</strong> - none of these labels is a good match</li>
+</ul>
