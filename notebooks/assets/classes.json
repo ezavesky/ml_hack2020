@@ -1,0 +1,7 @@
+[
+    {"class":"holiday", "definition":"holiday scenes or objects like decorated trees, presents, or character, holiday party", "primary":1},
+    {"class":"halloween", "definition":"halloween scenes where one or more characters are in costume, ideally one or more characters are trick-or-treating", "primary":1},
+    {"class":"gift giving", "definition":"scenes of gift giving, receiving, or opening/unwrapping", "primary":1},
+    {"class":"family moments", "definition":"at least two people on screen, typically familes at parties, enjoying a meal, lounging at home", "primary":0},
+    {"class":"shopping scenes", "definition":"one or more primary actors in a store-like environment; not necessary to see their face", "primary":0}
+]
