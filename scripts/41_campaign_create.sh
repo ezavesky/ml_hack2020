@@ -3,15 +3,8 @@
 ROOT_DIR=$( cd $( dirname $( cd $( dirname "${BASH_SOURCE[0]}" ) && pwd ) ) && pwd )
 echo $ROOT_DIR
 
-# need your auth token? head over to https://APP_SITE/api/lq/v1/uam/auth
-
-#URL_MEDIA=http://content.research.DOMAIN/projects/mlci_2020/content
-URL_MEDIA=https://vmlr-workshop.STORAGE
-URL_ROOT=https://APP_SITE
-#URL_ROOT=https://lq.web.DOMAIN
-#URL_ROOT=http://localhost:5000
-#AUTH_PATH=$ROOT_DIR/auth_web.json
-AUTH_PATH=$ROOT_DIR/auth.json
+# load settings from defined file
+source $ROOT_DIR/scripts/40_campaign_settings.sh
 
 cd $ROOT_DIR
 echo "--- list all existing projects --- " 

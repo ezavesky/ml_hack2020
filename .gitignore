@@ -1,3 +1,9 @@
+.ipynb_checkpoints
 *.mp4
 *.DS_*
+*.pyc
 *.jpg
+
+# functional directories
+dist
+cmlp
