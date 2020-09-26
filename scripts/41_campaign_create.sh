@@ -6,6 +6,9 @@ echo $ROOT_DIR
 # load settings from defined file
 source $ROOT_DIR/scripts/40_campaign_settings.sh
 
+echo "DISABLED - Please confirm you want to run this destructive operation by editing the file."
+exit
+
 cd $ROOT_DIR
 echo "--- list all existing projects --- " 
 python packages/pylq/lq/content_label.py -n mlci_2020_primary --auth_path $AUTH_PATH --ssl_ignore projects  --url_root $URL_ROOT
