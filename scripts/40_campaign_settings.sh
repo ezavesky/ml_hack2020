@@ -7,11 +7,13 @@ echo $ROOT_DIR
 export WORK_DIR=$ROOT_DIR/cmlp/work
 
 export URL_MEDIA=https://vmlr-workshop.STORAGE
-if false; then
+if true; then
 #export URL_MEDIA=http://content.research.DOMAIN/projects/mlci_2020/content
+    echo "Running in test mode..."
     export URL_ROOT=https://APP_SITE
     export AUTH_PATH=$WORK_DIR/auth.json
 else
+    echo "Running in production mode..."
     export URL_ROOT=https://lq.web.DOMAIN
     export AUTH_PATH=$ROOT_DIR/auth_web.json
 fi
