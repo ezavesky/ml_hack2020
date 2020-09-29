@@ -19,7 +19,7 @@ fi
 
 # now get everything else
 if [ ! -f "$ROOT_DIR/dist/features_tag.tgz" ]; then
-    find . -type d -exec sh -c '(ls -p "{}"|grep />/dev/null)||echo "{}"' \; | grep batches | grep -v -e '\(videocnn\|vggish\)' > $ROOT_DIR/dist/features_tag.txt
+    find . -type d -exec sh -c '(ls -p "{}"|grep />/dev/null)||echo "{}"' \; | grep -v -e '\(videocnn\|vggish\)' > $ROOT_DIR/dist/features_tag.txt
     tar -czvf $ROOT_DIR/dist/features_tag.tgz -T $ROOT_DIR/dist/features_tag.txt
 fi
 
